@@ -1,0 +1,80 @@
+.title{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.search_for_course{
+    display: flex;
+    column-gap: 5px;
+}
+.search_for_course_button,
+.search_for_course_input{
+    padding: 8px;
+    border: 0;
+    border-radius: 3px;
+}
+.search_for_course_input{
+    width: 100%;
+}
+.search_for_course_input:focus{
+    outline: none;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.search_for_course_button{
+    background-color: #0000ff;
+    color: #fff;
+    cursor: pointer;
+}
+.courses{
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.course{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    line-height: 2;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.repo_sec{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    line-height: 2;
+}
+.repo {
+    color: #000;
+    margin-top: 40px;
+}
+.back_to_repo{
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.repo_det {
+    display: flex;
+    align-items: center;
+}
+.repo_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course_button{
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Repo_Details{
+
+}
